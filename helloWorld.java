@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class helloWorld{
 	public static void main(String[] args){
-	System.out.println("Git is Awesome!");
+	Scanner input = new Scanner(System.in);
+	System.out.println("How is git so far? ");
+	String name = input.nextLine();
 }
 }
